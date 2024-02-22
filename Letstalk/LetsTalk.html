@@ -5,85 +5,224 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Let's Talk</title>
     <link rel="stylesheet" href="LetsTalk.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-    <canvas id="canvas"> </canvas>
+
     <div class="header">
-      <div class="logo">
-        <a href=""> <img src="../images/Business.png" alt="" /></a>
-      </div>
+      <div class="logo"><a href=""> <img src=".././images/Business.png" alt="" /></a> </div>
+      <div class="Top-Links"> 
+      <a class="top-btn" href="../index.html">Home</a>
+      <a class="top-btn" href="../services/service.html">Services</a>
+      <a class="top-btn" href="../about/about.html">About</a>
+      <a class="top-btn" href="../blogs/blog.html">Blogs</a>
+      </div> 
+  </div>
 
-      <div class="Top-Links">
-        <a class="top-btn" href="">Home</a>
-        <a class="top-btn" href="">Services</a>
-        <a class="top-btn" href="">Industries</a>
-        <a class="top-btn" href="">About</a>
-        <a class="top-btn" href="">Career</a>
-      </div>
-
-      <div class="Chat">Let's Talk</div>
-    </div>
-
-    <div class="Contact">
-      <h2>Contact With Us</h2>
-      <div class="Contact-us">
-        <div class="Find">
-          <i class="fa-solid fa-location-dot fa-2xl"></i>
+    <div class="container">
+      <div><h1 class="animated-h1">Locate Us</h1></div>
+      <div class="row">
+        <div class="col custom-border">
+          <i class="fa-solid fa-location-dot fa-2xl icon"></i>
           <p>Find Us</p>
         </div>
-        <div class="Find">
-          <i class="fa-solid fa-envelope fa-2xl"></i>
+        <div class="col custom-border">
+          <i class="fa-solid fa-envelope fa-2xl icon"></i>
           <p>Send E-mail</p>
         </div>
       </div>
     </div>
 
-    <!-- Chat Us-->
-
-    <div class="Chat-Us">
-      <div class="SMS"><h2>SEND A MESSAGE</h2></div>
-
-      <div class="Details">
-        <div class="container">
-          <h2>Contact Us</h2>
-          <form action="#" method="post">
-            <div class="form-group">
-              <label for="name">Your Name:</label>
-              <input type="text" id="name" name="name" required />
-            </div>
-            <div class="form-group">
-              <label for="email">Your Email:</label>
-              <input type="email" id="email" name="email" required />
-            </div>
-            <div class="form-group">
-              <label for="message">Message:</label>
-              <textarea id="message" name="message" required></textarea>
-            </div>
-            <button type="submit">Submit</button>
-          </form>
-        </div>
-
-        <div class="Location-map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27852.423344658942!2d79.44454639000843!3d29.23670232174354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a09b82112fa29d%3A0x6d4fcf3a9a541e4d!2sKathghariya%2C%20Haldwani%2C%20Uttarakhand!5e0!3m2!1sen!2sin!4v1708610456012!5m2!1sen!2sin"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
+    <div class="container">
+      <div><h1>Contact Us</h1></div>
+      <div class="row">
+          <div class="col-sm">
+              <form class="my-form"  action="https://formsubmit.co/gaurav26adhikari@gmail.com" method="POST">
+                  <div class="form-group">
+                      <label for="form-name">Name</label>
+                      <input type="text" class="form-control" id="form-name" placeholder="Name">
+                  </div>
+                  <div class="form-group">
+                      <label for="form-email">Email Address</label>
+                      <input type="email" class="form-control" id="form-email" placeholder="Email Address">
+                  </div>
+                  <div class="form-group">
+                      <label for="form-subject">Telephone</label>
+                      <input type="text" class="form-control" id="form-subject" placeholder="Subject">
+                  </div>
+                  <div class="form-group">
+                      <label for="form-message">Email your Message</label>
+                      <textarea class="form-control" id="form-message" placeholder="Message"></textarea>
+                  </div>
+                  <button class="btn btn-primary" type="submit">Contact Us</button>                
+              </form>
+          </div>
+          <div class="col-sm"  class="embed-responsive embed-responsive-16by9 embed-responsive-container">
+            <iframe class="embed-responsive-item"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27852.423344658942!2d79.44454639000843!3d29.23670232174354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a09b82112fa29d%3A0x6d4fcf3a9a541e4d!2sKathghariya%2C%20Haldwani%2C%20Uttarakhand!5e0!3m2!1sen!2sin!4v1708610456012!5m2!1sen!2sin"
+              width="550"
+              height="400"
+              style="border: 3"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
       </div>
-    </div>
-
-
-
-
-    
+      
+      </div>
+      <div>
+     
+        <!--Footer-->
+        <div>
+          <footer
+                  class="text-center text-lg-start text-white"
+                  style="background-color: #1c2331"
+                  >
+            <!-- Section: Social media -->
+            <section
+                     class="d-flex justify-content-between p-4"
+                     style="background-color: #6351ce"
+                     >
+              <!-- Left -->
+              <div class="me-5">
+                <span>Get connected with us on social networks:</span>
+              </div>
+              <!-- Left -->
+        
+              <!-- Right -->
+              <div>
+                <a href="" class="text-white me-4">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                  <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+              <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+        
+            <!-- Section: Links  -->
+            <section class="">
+              <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                  <!-- Grid column -->
+                  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold">Company name</h6>
+                    <hr
+                        class="mb-4 mt-0 d-inline-block mx-auto"
+                        style="width: 60px; background-color: #7c4dff; height: 2px"
+                        />
+                    <p>
+                      Here you can use rows and columns to organize your footer
+                      content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                      elit.
+                    </p>
+                  </div>
+                  <!-- Grid column -->
+        
+                  <!-- Grid column -->
+                  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold">Products</h6>
+                    <hr
+                        class="mb-4 mt-0 d-inline-block mx-auto"
+                        style="width: 60px; background-color: #7c4dff; height: 2px"
+                        />
+                    <p>
+                      <a href="#!" class="text-white">MDBootstrap</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-white">MDWordPress</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-white">BrandFlow</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-white">Bootstrap Angular</a>
+                    </p>
+                  </div>
+                  <!-- Grid column -->
+        
+                  <!-- Grid column -->
+                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold">Useful links</h6>
+                    <hr
+                        class="mb-4 mt-0 d-inline-block mx-auto"
+                        style="width: 60px; background-color: #7c4dff; height: 2px"
+                        />
+                    <p>
+                      <a href="#!" class="text-white">Your Account</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-white">Become an Affiliate</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-white">Shipping Rates</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-white">Help</a>
+                    </p>
+                  </div>
+                  <!-- Grid column -->
+        
+                  <!-- Grid column -->
+                  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold">Contact</h6>
+                    <hr
+                        class="mb-4 mt-0 d-inline-block mx-auto"
+                        style="width: 60px; background-color: #7c4dff; height: 2px"
+                        />
+                    <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                    <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+                    <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                    <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                  </div>
+                  <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+              </div>
+            </section>
+            <!-- Section: Links  -->
+        
+            <!-- Copyright -->
+            <div
+                 class="text-center p-3"
+                 style="background-color: rgba(0, 0, 0, 0.2)"
+                 >
+              © 2024 Copyright:
+              <a class="text-white" href="https://mdbootstrap.com/"
+                 >BusinessEncipher.com</a
+                >
+            </div>
+            <!-- Copyright -->
+          </footer>
+          <!-- Footer -->
+        </div>
     <script
       src="https://kit.fontawesome.com/661bfb8451.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
   </body>
 </html>

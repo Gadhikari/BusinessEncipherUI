@@ -63,125 +63,154 @@
    
 }
 
-
-
-
-
-.Chat{
+.custom-border {
+  top: 20px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    font-weight: 600;
-    padding: 8px 20px;
-    border-radius: 4px;
-}
-.Chat:hover{
-    background-color: #222831;
-    box-shadow: 0 0 10px rgba(218, 210, 210, 0.904);
-    color: white;
-
+    line-height: 300px;
+    border: 1px solid #ccc; /* Define a solid border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Define the shadow effect */
 }
 
-.Contact{
-    display: flex;
-    justify-content: center;
-   
-    flex-direction: column;
+i.fa-solid.fa-location-dot.fa-2xl.icon {
+  line-height: 295px;
+  padding-right: 5px;
 
 }
-.Contact-us{
-    display: flex;
-    border: 1px solid grey;
-    padding: 20px;
-    
-
+i.fa-solid.fa-envelope.fa-2xl.icon {
+  line-height: 295px;
+  padding-right: 5px;
 }
-.Find{
-    height: 250px;
-    width: 500px;
-        border: 1px solid black;
-        margin: 10px;
-        display: flex;
-        padding: 10px;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        gap: 40px;      
-}
-
-
-.Chat-Us{
-
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-padding: 30px;
-border: 1px solid green;
-    
-}
-
-.Details{
-    border: 1px solid black;
-    display: flex;
-    padding: 10px;
-    width:80vw ;
-    
-
-}
-
-
-
-
-
-
 .container {
-   width: 30vw;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  margin-top: 100px;
+}
+.my-form {
+  color: #305896;
+}
+.my-form .btn-default {
+  background-color: #305896;
+  color: #fff;
+  border-radius: 0;
+}
+.my-form .btn-default:hover {
+  background-color: #4498C6;
+  color: #fff;
+}
+.my-form .form-control {
+  border-radius: 0;
+}
+
+
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
   }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animated-h1 {
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #f5f5f5;
+}
+.footer p {
+  margin: 20px 0;
+}
+.embed-responsive-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625 or 56.25%) */
+}
+.embed-responsive-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/*Header Section*/
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#222831;
+  padding: 10px 30px;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+
+/* Adjust as needed */
+/* Adjust as needed */
+ 
   
-  h2 {
-    text-align: center;
-  }
   
-  .form-group {
-    margin-bottom: 20px;
-  }
   
-  label {
-    display: block;
-    font-weight: bold;
-  }
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+
+}
+.logo img{
+  height: 80px;
+  width: 130px;
+  border-radius: 10px;
+}
+
+.Top-Links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+}
+
+.Top-Links a{
+  color: white;
+  text-decoration: none;
   
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  textarea {
-    height: 100px;
-  }
-  
-  button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
+}
+.top-btn{
+  height: 35px;
+  width: 75px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Top-Links a:hover{
+  box-shadow: 0 0 10px rgba(247, 247, 247, 0.76);
+  background-color: #ffffff ;
+  color: #222831;
+ 
+}
+
+
+
+
+/*  Main-Home-Section */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+

@@ -10,13 +10,14 @@
 
 .header{
     display: flex;
- justify-content: space-between;
+    justify-content: space-between;
     align-items: center;
     background-color:#222831;
     padding: 10px 30px;
     top: 0;
     position: fixed;
     width: 100%;
+    z-index: 999;
   
   /* Adjust as needed */
  /* Adjust as needed */
@@ -374,7 +375,7 @@ padding: 20px;
     justify-content: center;
     align-items: center;
     width: 250px;
-    height: 250px;
+    height: 250px;https://www.w3schools.com/howto/howto_css_glowing_text.asp
     padding: 10px;
    flex-direction: column;
     border-radius: 8px;
@@ -638,4 +639,7 @@ body {
 
 
 
-
+.hero {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+  }
