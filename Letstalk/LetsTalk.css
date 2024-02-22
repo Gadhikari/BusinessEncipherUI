@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+ justify-content: space-between;
+    align-items: center;
+    background-color:#222831;
+    padding: 10px 30px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+  
+  /* Adjust as needed */
+ /* Adjust as needed */
+   
+    
+    
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+  
+}
+.logo img{
+    height: 80px;
+    width: 130px;
+    border-radius: 10px;
+}
+
+.Top-Links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  
+}
+
+.Top-Links a{
+    color: white;
+    text-decoration: none;
+    
+}
+.top-btn{
+    height: 35px;
+    width: 75px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Top-Links a:hover{
+    box-shadow: 0 0 10px rgba(247, 247, 247, 0.76);
+    background-color: #ffffff ;
+    color: #222831;
+   
+}
+
+
+
+
+
+.Chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 4px;
+}
+.Chat:hover{
+    background-color: #222831;
+    box-shadow: 0 0 10px rgba(218, 210, 210, 0.904);
+    color: white;
+
+}
+
+.Contact{
+    display: flex;
+    justify-content: center;
+   
+    flex-direction: column;
+
+}
+.Contact-us{
+    display: flex;
+    border: 1px solid grey;
+    padding: 20px;
+    
+
+}
+.Find{
+    height: 250px;
+    width: 500px;
+        border: 1px solid black;
+        margin: 10px;
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;      
+}
+
+
+.Chat-Us{
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 30px;
+border: 1px solid green;
+    
+}
+
+.Details{
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+    width:80vw ;
+    
+
+}
+
+
+
+
+
+
+.container {
+   width: 30vw;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
