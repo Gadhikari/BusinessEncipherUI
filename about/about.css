@@ -6,69 +6,87 @@
 
 
 
-body{margin-top:20px;}
-
-
-.timeline-steps {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap
+.SERVICES{
+   
+    margin-top: 100px;
+    padding: 20px;
 }
 
-.timeline-steps .timeline-step {
+.About-card{
+     display: flex;
+    justify-content: center;
     align-items: center;
+    padding: 10px;
+    
+}
+.About-card i{
+    line-height: 4rem;
+    font-size: 3.5rem;
+}
+
+.Cards-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+ max-width: 70vw;
+
+}
+.Cards{
+    
     display: flex;
     flex-direction: column;
-    position: relative;
-    margin: 1rem
-}
-
-@media (min-width:768px) {
-    .timeline-steps .timeline-step:not(:last-child):after {
-        content: "";
-        display: block;
-        border-top: .25rem dotted #3b82f6;
-        width: 3.46rem;
-        position: absolute;
-        left: 7.5rem;
-        top: .3125rem
-    }
-    .timeline-steps .timeline-step:not(:first-child):before {
-        content: "";
-        display: block;
-        border-top: .25rem dotted #3b82f6;
-        width: 3.8125rem;
-        position: absolute;
-        right: 7.5rem;
-        top: .3125rem
-    }
-}
-
-.timeline-steps .timeline-content {
-    width: 10rem;
-    text-align: center
-}
-
-.timeline-steps .timeline-content .inner-circle {
-    border-radius: 1.5rem;
-    height: 1rem;
-    width: 1rem;
-    display: inline-flex;
-    align-items: center;
     justify-content: center;
-    background-color: #3b82f6
+    align-items: center;
+    text-align: center;
+}
+    
+.About-card:hover{
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
-.timeline-steps .timeline-content .inner-circle:before {
-    content: "";
-    background-color: #3b82f6;
-    display: inline-block;
-    height: 3rem;
-    width: 3rem;
-    min-width: 3rem;
-    border-radius: 6.25rem;
-    opacity: .5
-}
-.container.bootstrap.snippets.bootdey{
-    padding-top: 100px;
-}
+
+
+
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* The image used */
+    background-image: url("../images/post-it-notes-3233653_1280.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }

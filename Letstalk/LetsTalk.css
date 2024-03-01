@@ -1,8 +1,22 @@
 
-/*   */
+
+
+/*Header Section*/
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;}
 
 
+
+
+.Contact-Container{
+margin-top: 100px;
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/post-it-notes-3233653_1280.jpg');
+
+
+padding: 20px;
+}

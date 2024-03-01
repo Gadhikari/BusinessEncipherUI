@@ -172,3 +172,9 @@ function showSlides(n) {
 
 
 
+/* About us */ 
+
+
+
+
+
