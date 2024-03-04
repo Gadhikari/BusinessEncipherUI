@@ -59,7 +59,7 @@ body, html {
   
   .bg-image {
     /* The image used */
-    background-image: url("../images/post-it-notes-3233653_1280.jpg");
+    background-image: url("../images/about_us.jpg");
   
     /* Add the blur effect */
     filter: blur(8px);
