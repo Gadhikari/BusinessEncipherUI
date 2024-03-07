@@ -1,15 +1,41 @@
-function initMap() {
-    // Location coordinates
-    var location = {lat: 40.7128, lng: -74.0060};
-    // Create a map object and specify the DOM element for display
-    var map = new google.maps.Map(document.getElementById('map'), {
-      center: location,
-      zoom: 12 // Adjust the zoom level as needed
-    });
-    // Create a marker and set its position
-    var marker = new google.maps.Marker({
-      map: map,
-      position: location,
-      title: 'Our Location'
-    });
-  }
+
+const messageContainer = document.getElementById("messageContainer");
+
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+  event.preventDefault();
+  
+  const formData = {
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    message: document.getElementById("message").value
+  };
+  
+  /* make sure to replace the xxxxxxx with the form id you created on fabform.io */
+  
+  fetch('https://fabform.io/f/pPppMKr', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(formData)
+  })
+  .then(response => response.json())
+  .then(data => {
+    if (data.success === "true") {
+      messageContainer.innerHTML = "<p style='color: green;'>Form submitted successfully!</p>";
+    } else {
+      throw new Error('Server response indicates failure');
+    }
+  })
+  .catch(error => {
+    console.error('Error:', error);
+    messageContainer.innerHTML = "<p style='color: red;'>An error occurred while submitting the form.</p>";
+  });
+});
+
+
+
+
+
+
+
