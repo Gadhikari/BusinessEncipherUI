@@ -7,7 +7,8 @@ document.getElementById("contactForm").addEventListener("submit", function(event
   const formData = {
     name: document.getElementById("name").value,
     email: document.getElementById("email").value,
-    message: document.getElementById("message").value
+    message: document.getElementById("message").value,
+    contact: document.getElementById("contact").value
   };
   
   /* make sure to replace the xxxxxxx with the form id you created on fabform.io */

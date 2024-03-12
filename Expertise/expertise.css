@@ -46,17 +46,11 @@ body, html {
 
 
 
-
-
-#expertise {
-    background-color: #f8f9fa;
-    padding: 80px 0;
+  .expertise-section {
+    padding: 50px 0;
   }
-  .expertise-item {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  .expertise-item img {
+  .expertise-img {
     max-width: 100%;
-    height: auto;
   }
+
+

@@ -3,26 +3,22 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+
+/* 
 body {
+
   background-image: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.5),
-      rgb(248, 248, 248)
-    ),
-    url("");
+    rgba(0, 0, 0, 0.5),
+    rgba(10, 10, 10, 0.74)
+  ),
+  url("./images/background-Business-Encipher.jpg");
+ background-position: center;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  font-family: "Quicksand", serif;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0;
-  padding: 1rem;
-  padding: 0;
-  margin: 0;
-  height: 100vh;
-  width: 100vw;
+ 
 }
+*/  
+
 
 /*HEADER SECTION */
 
@@ -94,29 +90,78 @@ header {
 }
 
 .Main-Home {
+  background-image: url(./images/businessEncipher-background.jpg);
+  background-position: center;
+  background-size: cover;
   padding: 10px;
   display: flex;
-  flex-direction: column;
+color: white;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  height: 85vh;
+
+ 
+}
+.Main-Home-Heading h1{
+
+  font-size: 4rem;
 }
 
-.rotating-text-wrapper span {
-  font-size: 5rem;
-  color: white;
-  text-shadow: 2px 2px 4px rgba(31, 28, 28, 1);
+@media screen and (max-width:657px) {
+
+  .Main-Home-Heading h1{
+
+  font-size: 3rem;
+}
+.Main-Home-Heading {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  
+   text-align: center;
+}
 }
 
-.rotating-text-wrapper .span1 {
-  color: #e9a511;
+.Business-Encipher{
+  text-shadow: 2px 2px 4px rgba(5, 5, 5, 0.5);
 }
 
-.h3 {
-  color: rgb(255, 255, 255);
-  font-family: cursive;
+
+.logo-slider {
+  overflow: hidden;
+  padding: 30px 0 0 0;
+  white-space: nowrap;
+  position: relative;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Roboto:700");
+.logo-slider:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 45s slide infinite linear;
+}
+
+.logos-slide img {
+  width: 183px;
+  height: 83px;
+  margin: 0 40px;
+}
+
+
+@keyframes slide {
+  from {
+      transform: translateX(0);
+  }
+
+  to {
+      transform: translateX(-100%);
+  }
+}
 
 .container1 {
   display: flex;
@@ -163,26 +208,30 @@ header {
 
 /* End of main home text section */
 
-.Home {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  color: rgb(255, 255, 255);
-  gap: 100px;
-}
 
 .Home1 {
+  display: flex;
+  flex-direction: column;
+ 
   background-image: linear-gradient(
-      rgba(14, 13, 13, 0.5),
-      rgba(19, 19, 19, 0.5)
-    ),
-    url("./images/main_home.jpg");
-    opacity: 1;
+    rgba(0, 0, 0, 0.5),
+    rgba(10, 10, 10, 0.74)
+  ),
+  url("./images/background-Business-Encipher.jpg");
+ background-position: center;
+  background-size: cover;
 
-    background-position: center;
+ padding: 20px 0;
+  display: flex;
+  
+
 }
 
-@keyframes Main-Home {
+
+
+
+
+/*    @keyframes Main-Home {
   0% {
     background: #607da8;
   }
@@ -199,87 +248,9 @@ header {
     background: #042772;
   }
 }
+     */ 
 
-.Main-Home {
-  animation: Main-Home 8s linear infinite alternate both;
-  margin-top: 100px;
-}
 
-.rotating-text-wrapper {
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-.rotating-text-wrapper h2 {
-  font-size: 2.5em;
-  margin: 0;
-  padding: 0.3em;
-  color: #fff;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-  opacity: 0;
-}
-.rotating-text-wrapper h2:nth-child(1) {
-  background-color: lightseagreen;
-  animation-name: rotating-text-1;
-}
-@keyframes rotating-text-1 {
-  0% {
-    transform: translateY(200%);
-  }
-  33% {
-    transform: translateY(100%);
-    opacity: 1;
-  }
-  34% {
-    opacity: 0;
-  }
-}
-.rotating-text-wrapper h2:nth-child(2) {
-  background-color: rgb(209, 197, 27);
-  animation-name: rotating-text-2;
-}
-@keyframes rotating-text-2 {
-  33% {
-    transform: translateY(100%);
-    opacity: 0;
-  }
-  66% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-  67% {
-    opacity: 0;
-  }
-}
-.rotating-text-wrapper h2:nth-child(3) {
-  background-color: cornflowerblue;
-  animation-name: rotating-text-3;
-}
-@keyframes rotating-text-3 {
-  66% {
-    transform: translateY(0);
-    opacity: 0;
-  }
-  99% {
-    transform: translateY(-100%);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(-100%);
-    opacity: 0;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .rotating-text-wrapper {
-    font-size: 0.7rem;
-  }
-}
 
 /* Font */
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
@@ -334,6 +305,16 @@ img {
   align-items: center;
 }
 
+.card_image{
+
+opacity: 0.9;
+
+}
+
+
+
+
+
 @media (min-width: 40rem) {
   .cards_item {
     width: 50%;
@@ -353,11 +334,12 @@ img {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  
 }
 
 .card_content {
   padding: 1rem;
-  background: linear-gradient(to bottom left, #7a7778 40%, #1a1716 100%);
+  background: linear-gradient(to bottom left, #3a57b6 40%, #0e0e0e 100%);
 }
 
 .card_title {
@@ -386,14 +368,6 @@ img {
 
 /* Home1-Section */
 
-.Home1 {
-  padding: 20px 0;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  justify-content: center;
-  align-items: center;
-}
 
 .Home-Heading {
   font-family: "Roboto Condensed", sans-serif;
@@ -470,8 +444,11 @@ img {
   left: 0;
   top: 0;
   width: 100%;
-  height: 561px;
+  height: 50vh;
+  margin-top: 100px;
 }
+
+
 
 .hero {
   background-color: #f8f9fa;
@@ -666,3 +643,12 @@ img {
 .DrugRadar {
   font-size: 50px;
 }
+
+
+
+
+
+
+
+
+

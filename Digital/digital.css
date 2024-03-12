@@ -87,13 +87,13 @@ backface-visibility: hidden;
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-background-color: #bbb;
-color: black;
+  background-color: #1e9ac0fd;
+  color: rgb(255, 255, 255);
 }
 
 /* Style the back side */
 .flip-card-back {
-background-color: rgb(32, 30, 30);
+  background-color: rgb(10, 57, 158);
 color: white;
 transform: rotateY(180deg);
 display: flex;

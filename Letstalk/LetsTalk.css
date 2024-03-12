@@ -6,31 +6,72 @@
 
 
 
-.contact-form {
+.contact-form{
+    
 
-    margin: 0 auto;
+ 
     margin-top: 100px;
     display: flex;
+    justify-content: center;
+     align-items: center;
+     flex-direction: column;
   
     }
 
 
 
 
-.Contact-Container{
-
-background-image: linear-gradient(rgba(61, 53, 53, 0.5), rgba(36, 33, 33, 0.39)), url('../images/contact_us.jpg');
-background-position: center;
-margin-bottom: 30px;
-padding-top: 40px;
-
-
-}
 
 #map {
-    height: 400px; /* Adjust the height as needed */
-    width: 400px;   /* Make the map container fill the width of its parent element */
+    height: 350px; /* Adjust the height as needed */
+    width: 350px;   /* Make the map container fill the width of its parent element */
    
   }
 
+  .Contact_Us{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+ margin-bottom: 50px;
+    border-radius: 10px;
+
+  }
+
+  .FORM{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   
+  }
+
+  .Email_btn{
+padding: 5px;
+border-radius: 20px 2px 20px 2px;
+
+  }
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width:350px) {
+
+    #map {
+    height: 300px; /* Adjust the height as needed */
+    width: 300px;   /* Make the map container fill the width of its parent element */
+   
+   
+  }
+  #map iframe {
+    height: 300px; /* Adjust the height as needed */
+    width: 300px;   /* Make the map container fill the width of its parent element */
+   
+  }
+
+  }

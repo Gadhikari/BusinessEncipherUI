@@ -12,6 +12,14 @@
     align-items: center;
   }
 
+
+  body {
+
+   background-color: white;
+  }
+  
+
+
   .service-img {
     max-width: 100%;
   }
@@ -62,7 +70,7 @@
     background-color: transparent;
     width: 300px;
     height: 300px;
-    border: 1px solid #f1f1f1;
+   
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
     
    margin: 20px;
@@ -95,13 +103,13 @@
   
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
-    background-color: #bbb;
-    color: black;
+    background-color: #1e9ac0fd;
+    color: rgb(255, 255, 255);
   }
   
   /* Style the back side */
   .flip-card-back {
-    background-color: rgb(32, 30, 30);
+    background-color: rgb(10, 57, 158);
     color: white;
     transform: rotateY(180deg);
     display: flex;

@@ -5,17 +5,13 @@
 
 /* The hero image */
 .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/services\ \(1\).jpg");
-
-  /* Set a specific height */
-  height: 100%;
-
-  /* Position and center the image to scale nicely on all screens */
+  margin-top: 100px;
+  background-image:  url("../images/services.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  height: 70vh;
 }
 
 /* Place text in the middle of the image */
@@ -25,16 +21,13 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: rgb(215, 238, 12);
+
 }
 
 
-.hero-image{
-    margin-top: 100px;
-    margin-bottom: 50px;
-    opacity: 0.9;
-}
 
+  
 
 
 
@@ -51,7 +44,7 @@
 
 .Service-box{
 
-  background-color:#ffff00;
+  background-color:#1e9ac0fd;
 
 }
 
@@ -68,141 +61,4 @@
 }
 
 
-
-/* animation 
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
-
-.dropping-texts {
-  display: inline-block;
-  width: 180px;
-  text-align: left;
-  height: 36px;
-  vertical-align: -2px;
-}
-
-.dropping-texts > div {
-  font-size:0px;
-  opacity:0;
-  margin-left:-30px;
-  position:absolute;
-  font-weight:300;   
-  box-shadow: 0px 60px 25px -20px rgba(0,0,0,0.5);
-}
-
-.dropping-texts > div:nth-child(1) {
-  animation: roll 5s linear infinite 0s;
-}
-.dropping-texts > div:nth-child(2) {
-  animation: roll 5s linear infinite 1s;
-}
-.dropping-texts > div:nth-child(3) {
-  animation: roll 5s linear infinite 2s;
-}
-.dropping-texts > div:nth-child(4) {
-  animation: roll2 5s linear infinite 3s;
-}
-
-@keyframes roll {
-  0% {
-    font-size:0px;
-    opacity:0;
-    margin-left:-30px;
-    margin-top:0px;
-    transform: rotate(-25deg);
-  }
-  3% {
-    opacity:1;
-    transform: rotate(0deg);
-  }
-  5% {
-    font-size:inherit;
-    opacity:1;
-    margin-left:0px;
-    margin-top:0px;
-  }
-  20% {
-    font-size:inherit;
-    opacity:1;
-    margin-left:0px;
-    margin-top:0px;
-    transform: rotate(0deg);
-  }
-  27% {
-    font-size:0px;
-    opacity:0.5;
-    margin-left:20px;
-    margin-top:100px;
-  }
-  100% {
-    font-size:0px;
-    opacity:0;
-    margin-left:-30px;
-    margin-top:0px;
-    transform: rotate(15deg);
-  }
-}
-
-@keyframes roll2 {
-  0% {
-    font-size:0px;
-    opacity:0;
-    margin-left:-30px;
-    margin-top:0px;
-    transform: rotate(-25deg);
-  }
-  3% {
-    opacity:1;
-    transform: rotate(0deg);
-  }
-  5% {
-    font-size:inherit;
-    opacity:1;
-    margin-left:0px;
-    margin-top:0px;
-  }
-  30% {
-    font-size:inherit;
-    opacity:1;
-    margin-left:0px;
-    margin-top:0px;
-    transform: rotate(0deg);
-  }
-  37% {
-    font-size:1500px;
-    opacity:0;
-    margin-left:-1000px;
-    margin-top:-800px;
-  }
-  100% {
-    font-size:0px;
-    opacity:0;
-    margin-left:-30px;
-    margin-top:0px;
-    transform: rotate(15deg);
-  }
-}
-
-@keyframes bg {
-  0% {background: #ff0075;}
-  3% {background: #0094ff;}
-  20% {background: #0094ff;}
-  23% {background: #b200ff;}
-  40% {background: #b200ff;}
-  43% {background: #8BC34A;}
-  60% {background: #8BC34A;}
-  63% {background: #F44336;}
-  80% {background: #F44336;}
-  83% {background: #F44336;}
-  100% {background: #F44336;}
-}
-
-.Service-animation{
-  background-color: rgb(25, 189, 99);
-  height: 30vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-*/
 
