@@ -56,6 +56,15 @@ body, html {
 .Blog-heading{
 	padding: 20px;
 	margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Blog-heading p{
+  background-color: rgba(185, 185, 165, 0.863);
+  padding: 10px;
+  border-radius: 10px;
 }
 
 

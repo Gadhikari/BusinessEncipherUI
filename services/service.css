@@ -6,12 +6,17 @@
 /* The hero image */
 .hero-image {
   margin-top: 100px;
-  background-image:  url("../images/services.jpg");
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(19, 18, 18, 0.384)
+  ),
+  url("../images/services.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   height: 70vh;
+  
 }
 
 /* Place text in the middle of the image */

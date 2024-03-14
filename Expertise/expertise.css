@@ -9,11 +9,11 @@ body, html {
   
   .bg-image {
     /* The image used */
-    background-image: url("../images/post-it-notes-3233653_1280.jpg");
+    background-image: url("../images/our-expertise-business-encipher.jpeg");
   margin-top: 100px;
     /* Add the blur effect */
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
   
     /* Full height */
     height: 100%;
@@ -46,11 +46,14 @@ body, html {
 
 
 
-  .expertise-section {
-    padding: 50px 0;
-  }
-  .expertise-img {
-    max-width: 100%;
+
+  .expertise-item {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
   }
 
-
+  .expertise-item.animated {
+    opacity: 1;
+    transform: translateY(0);
+  }

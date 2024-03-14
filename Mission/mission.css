@@ -8,12 +8,12 @@ body, html {
   
   .bg-image {
     /* The image used */
-    background-image: url("../images/post-it-notes-3233653_1280.jpg");
+    background-image: url("../images/our-mission-top-business-encipher.jpeg");
     margin-top: 100px;
   
     /* Add the blur effect */
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
   
     /* Full height */
     height: 100%;
@@ -26,8 +26,8 @@ body, html {
   
   /* Position text in the middle of the page/image */
   .bg-text {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    background-color: rgba(0, 0, 0, 0.836); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.562); /* Black w/opacity/see-through */
     color: white;
     font-weight: bold;
     border: 3px solid #f1f1f1;
@@ -41,3 +41,24 @@ body, html {
     text-align: center;
   }
   
+  .MISSION{
+    background-image: linear-gradient(
+      rgba(241, 241, 241, 0.5),
+      rgba(238, 233, 233, 0.87)
+    ),
+    url("../images/our-mission-business-encipher.jpeg");
+    background-position: center;
+    background-size: cover;
+  }
+  .container{
+
+    display: flex;
+    flex-direction: column;
+   
+   
+  }
+
+  .row2{
+   
+    padding: 1.2rem;
+  }

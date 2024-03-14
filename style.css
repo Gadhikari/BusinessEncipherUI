@@ -90,7 +90,13 @@ header {
 }
 
 .Main-Home {
-  background-image: url(./images/businessEncipher-background.jpg);
+
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(85, 81, 81, 0.205)
+  ),
+  url("./images/businessEncipher-background.jpeg");
+
   background-position: center;
   background-size: cover;
   padding: 10px;
@@ -144,6 +150,8 @@ color: white;
 .logos-slide {
   display: inline-block;
   animation: 45s slide infinite linear;
+  
+
 }
 
 .logos-slide img {
@@ -645,6 +653,13 @@ opacity: 0.9;
 }
 
 
+
+.tagline{
+  text-align: center;
+    border-radius: 10px;
+    color: black;
+    font-weight: 600;
+  }
 
 
 

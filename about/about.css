@@ -69,8 +69,8 @@ body, html {
     background-image: url("../images/about_us.jpg");
   
     /* Add the blur effect */
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
   
     /* Full height */
     height: 100%;
@@ -98,10 +98,116 @@ body, html {
     text-align: center;
   }
 
+  .SERVICES{
+ 
+
+    background-image: linear-gradient(
+      rgba(230, 230, 230, 0.904),
+      rgba(221, 215, 215, 0.979)
+    ),
+    url("../images/about-us-business-encipher.jpeg");
+    background-size: cover;
+    background-position: center;
+  
+  }
 
 
 
+  
 
+  
+
+  img {
+    max-width: 100%;
+  }
+  
+  .main {
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+  
+  }
+  
+  .container {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ 
+  .title h2 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+  }
+  
+  .title .underline {
+    width: 100px;
+    height: 4px;
+    background-color: #177a29;
+    margin: 0 auto;
+  }
+  
+  .review {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+   
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.05);
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  #person-img {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.5);
+  }
+  
+  #author {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 10px;
+  }
+  
+  #job {
+    text-transform: uppercase;
+    line-height: 150%;
+    margin-bottom: 10px;
+    color: #177a29;
+  }
+  
+  #info {
+   
+    font-size: 18px;
+    color: #454545;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    text-decoration: none;
+    border-style: none;
+    
+  
+ 
+    cursor: pointer;
+  }
+  
 
 
 
