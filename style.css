@@ -5,19 +5,6 @@
 }
 
 
-/* 
-body {
-
-  background-image: linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(10, 10, 10, 0.74)
-  ),
-  url("./images/background-Business-Encipher.jpg");
- background-position: center;
-  background-size: cover;
- 
-}
-*/  
 
 
 /*HEADER SECTION */
@@ -95,7 +82,7 @@ header {
     rgba(0, 0, 0, 0.5),
     rgba(85, 81, 81, 0.205)
   ),
-  url("./images/businessEncipher-background.jpeg");
+  url("./images/business-encipher-background.jpg");
 
   background-position: center;
   background-size: cover;
@@ -221,11 +208,7 @@ color: white;
   display: flex;
   flex-direction: column;
  
-  background-image: linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(10, 10, 10, 0.74)
-  ),
-  url("./images/background-Business-Encipher.jpg");
+ 
  background-position: center;
   background-size: cover;
 
@@ -239,24 +222,6 @@ color: white;
 
 
 
-/*    @keyframes Main-Home {
-  0% {
-    background: #607da8;
-  }
-  25% {
-    background: #5b2b8b;
-  }
-  50% {
-    background: #0c4b9e;
-  }
-  75% {
-    background: #0e0b02;
-  }
-  100% {
-    background: #042772;
-  }
-}
-     */ 
 
 
 
@@ -447,14 +412,6 @@ opacity: 0.9;
 
 /* Mouse-Hover Effects */
 
-#canvas {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 50vh;
-  margin-top: 100px;
-}
 
 
 
