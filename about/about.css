@@ -207,6 +207,15 @@ body, html {
  
     cursor: pointer;
   }
+
+  .img-container{
+    
+    max-width: 130px;
+
+  }
+  .img-container img{
+    max-width: 120px;
+  }
   
 
 
