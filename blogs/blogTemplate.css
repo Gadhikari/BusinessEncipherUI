@@ -1,0 +1,57 @@
+.main-top{
+    background-color: green;
+    padding: 10px;
+    margin-top: 120px;
+    padding-top: 20px;
+
+}
+
+
+.main-content{
+
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    gap: 10px;
+  }
+  
+  .right-content{
+   
+    padding: 10px;
+    
+  }
+  
+  #image{
+    border-radius: 10px;
+    height: 50vh;
+    width: 30vw;
+  }
+  .event-images{
+  
+    display: flex;
+   gap: 20px;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+  }
+  
+  .images{
+  
+    max-width: 15vw;
+    
+  
+  }
+  .images img{
+    max-width: 20vw;
+        
+  }
+  
+  
+  .back-button{
+    padding: 4px;
+    
+    border-radius: 5px;
+    margin-left: 10px;
+  
+  }
+  

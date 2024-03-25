@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IT Blog</title>
+  <link rel="stylesheet" href="blogTrial.css">
+</head>
+<body>
+
+
+    <header>
+        <h1>IT Company Blogs</h1>
+        <select id="categorySelect">
+          <option value="all">All Categories</option>
+          <option value="programming">Programming</option>
+          <option value="networking">Networking</option>
+          <option value="security">Security</option>
+        </select>
+      </header>
+      
+      <main id="blogContainer">
+        <!-- Blog posts will be dynamically inserted here -->
+      </main>
+    
+      <div id="blogContentModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div id="blogContent"></div>
+        </div>
+      </div>
+    
+
+
+  <section id="blog-posts"></section>
+  <script src="blogTrial.js"></script>
+</body>
+</html>

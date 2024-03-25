@@ -10,12 +10,14 @@
     rgba(0, 0, 0, 0.5),
     rgba(19, 18, 18, 0.384)
   ),
-  url("../images/services.jpg");
+  url("../images/services1.jpg");
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   height: 80vh;
+
   
 }
 
@@ -32,7 +34,7 @@
 
 }
 .hero-text h1{
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -70,9 +72,7 @@
   
 }
 
-.service-img{
-  min-width: 300px;
-}
+
 .service-img , .service-text{
   display: flex;
   flex-direction: column;
@@ -90,6 +90,7 @@
   display: flex;
  padding-top: 20px;
   flex-direction: column;
+
  
 
 }
@@ -122,6 +123,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 
@@ -138,12 +140,16 @@
   }
   .service-img img{
     width: 200px;
+    border-radius: 10px;
+    
   }
   .hero-text{
     width: 90vw;
     font-size: 1em;
   }
-
+  .service-img{
+    min-width: 200px;
+  }
 }
 
 
@@ -155,6 +161,10 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+  .service-img{
+    min-width: 200px;
+    background-color: yellow;
   }
   .service-img img{
     width: 150px;

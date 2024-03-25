@@ -48,7 +48,7 @@
 
   .Email_btn{
 padding: 5px;
-border-radius: 20px 2px 20px 2px;
+border-radius: 5px;
 
   }
 
@@ -66,12 +66,25 @@ border-radius: 20px 2px 20px 2px;
     height: 300px; /* Adjust the height as needed */
     width: 300px;   /* Make the map container fill the width of its parent element */
    
-   
   }
   #map iframe {
     height: 300px; /* Adjust the height as needed */
     width: 300px;   /* Make the map container fill the width of its parent element */
    
   }
+
+  }
+
+
+
+
+  @media screen and (max-width:400px){
+
+
+    .FORM{
+  
+   padding: 20px;
+    }
+  
 
   }
